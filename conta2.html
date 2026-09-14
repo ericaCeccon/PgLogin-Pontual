@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pontual - Criar conta</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="conta2.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <main class="page">
+
+        <div class="signup-container">
+
+            <!-- ==================================================
+                 LADO ESQUERDO
+            =================================================== -->
+
+            <section class="left-side">
+
+                <!-- Logo -->
+                <div class="logo2"> 
+                    <img src="img/logo.png" alt="Pontual Logo"  >
+                    <img src="img/pontual.png" alt="" >
+                </div>
+
+
+                <!-- Conteúdo -->
+                <div class="left-content">
+
+                    <span class="join-badge">
+                        Junte-se a nós
+                    </span>
+
+                    <h1>
+                        Comece sua
+                        <span>jornada</span>
+                    </h1>
+
+                    <p class="description">
+                        Siga estes passos simples para configurar sua conta.
+                    </p>
+
+
+                    <!-- ETAPAS -->
+                    <div class="steps">
+
+                        <!-- Etapa 1 -->
+                        <div class="step">
+
+                            <div class="step-number">
+                                1
+                            </div>
+
+                            <div class="step-text">
+                                Informe seu
+                                <br>
+                                email
+                            </div>
+
+                        </div>
+
+
+                        <!-- Etapa 2 -->
+                        <div class="step active">
+
+                            <div class="step-number">
+                                2
+                            </div>
+
+                            <div class="step-text">
+                                Configure sua
+                                <br>
+                                senha
+                            </div>
+
+                        </div>
+
+
+                        <!-- Etapa 3 -->
+                        <div class="step">
+
+                            <div class="step-number">
+                                3
+                            </div>
+
+                            <div class="step-text">
+                                Confirme sua
+                                <br>
+                                identidade
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Efeito decorativo -->
+                <div class="orange-glow"></div>
+                <div class="red-glow"></div>
+
+                <div class="bottom-line"></div>
+
+            </section>
+
+
+            <!-- ==================================================
+                 LADO DIREITO
+            =================================================== -->
+
+            <section class="right-side">
+
+                <!-- Logo pequena -->
+                <div class="right-logo">
+                    <img src="img/logo.png" alt="Logo Pontual">
+                </div>
+
+
+                <!-- Formulário -->
+                <div class="form-container">
+
+                    <h2>
+                        Crie sua conta
+                    </h2>
+
+                    <p class="form-subtitle">
+                        Preencha seus dados para começar.
+                    </p>
+
+
+                    <form id="cadastroForm">
+
+
+                        <!-- NOME -->
+                        <div class="input-group">
+
+                            <label for="nome">
+                                Nome completo
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <input
+                                    type="text"
+                                    id="nome"
+                                    name="nome"
+                                    placeholder="Digite seu nome completo"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="input-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Digite seu email"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- SENHA -->
+                        <div class="input-group">
+
+                            <label for="senha">
+                                Senha
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <input
+                                    type="password"
+                                    id="senha"
+                                    name="senha"
+                                    placeholder="Digite sua senha"
+                                    autocomplete="new-password"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-button"
+                                    onclick="togglePassword('senha', this)"
+                                    aria-label="Mostrar senha"
+                                >
+                                    <i data-lucide="eye"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- CONFIRMAR SENHA -->
+                        <div class="input-group">
+
+                            <label for="confirmarSenha">
+                                Confirmar senha
+                            </label>
+
+                            <div class="input-wrapper">
+
+                                <input
+                                    type="password"
+                                    id="confirmarSenha"
+                                    name="confirmarSenha"
+                                    placeholder="Digite sua senha novamente"
+                                    autocomplete="new-password"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-button"
+                                    onclick="togglePassword('confirmarSenha', this)"
+                                    aria-label="Mostrar senha"
+                                >
+                                    <i data-lucide="eye"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- BOTÃO -->
+                        <button
+                            type="submit"
+                            class="continue-button"
+                        >
+
+                            <span>
+                                Criar conta
+                            </span>
+
+                            <i data-lucide="arrow-right"></i>
+
+                        </button>
+
+
+                    </form>
+
+
+                    <!-- LOGIN -->
+                    <div class="login-link">
+
+                        Já possui uma conta?
+
+                        <a href="login2.html">
+                            Entrar
+                        </a>
+
+                    </div>
+
+
+                    <!-- DIVISOR -->
+                    <div class="divider">
+
+                        <span></span>
+
+                        <p>Ou</p>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- GOOGLE -->
+                    <button
+                        type="button"
+                        class="google-button"
+                    >
+
+                        <span class="google-icon">
+                            G
+                        </span>
+
+                        <span>
+                            Cadastrar com Google
+                        </span>
+
+                    </button>
+
+
+                    <!-- TERMOS -->
+                    <p class="terms">
+
+                        Ao criar uma conta, você confirma que leu e
+                        concorda com nossa
+
+                        <a href="#">
+                            Política de Privacidade
+                        </a>
+
+                        e
+
+                        <a href="#">
+                            Termos de Serviço
+                        </a>.
+
+                    </p>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script>
+
+        // Ativa os ícones Lucide
+        lucide.createIcons();
+
+
+        // Mostrar / esconder senha
+        function togglePassword(inputId, button) {
+
+            const input = document.getElementById(inputId);
+
+            const icon = button.querySelector("i");
+
+            if (input.type === "password") {
+
+                input.type = "text";
+
+                icon.setAttribute("data-lucide", "eye-off");
+
+            } else {
+
+                input.type = "password";
+
+                icon.setAttribute("data-lucide", "eye");
+
+            }
+
+            lucide.createIcons();
+        }
+
+
+        // Validação simples do formulário
+        document
+            .getElementById("cadastroForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                const senha = document.getElementById("senha").value;
+                const confirmarSenha =
+                    document.getElementById("confirmarSenha").value;
+
+
+                if (senha !== confirmarSenha) {
+
+                    alert("As senhas não coincidem.");
+
+                    return;
+                }
+
+
+                if (senha.length < 8) {
+
+                    alert("A senha deve possuir pelo menos 8 caracteres.");
+
+                    return;
+                }
+
+
+                alert("Conta criada com sucesso!");
+
+            });
+
+    </script>
+
+</body>
+
+</html>

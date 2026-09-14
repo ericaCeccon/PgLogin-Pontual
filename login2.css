@@ -63,7 +63,13 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* brilho atrás do card */
+=======
+/* =========================================================
+   BRILHO ATRÁS DO CARD
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .page::before {
     content: "";
@@ -91,8 +97,15 @@ body {
 ========================================================= */
 
 .signup-container {
+<<<<<<< HEAD
     width: min(1140px, 96vw);
     max-height: min(720px, calc(100vh - 28px));
+=======
+    width: 100%;
+    max-width: 1280px;
+    height: clamp(600px, 88vh, 640px);
+    min-height: 600px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     display: grid;
     grid-template-columns: 1.12fr 0.88fr;
@@ -101,6 +114,10 @@ body {
     overflow: hidden;
 
     position: relative;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     background: #111111;
 
     border: 1px solid rgba(255, 255, 255, 0.13);
@@ -110,7 +127,10 @@ body {
         0 0 70px rgba(255, 45, 30, 0.08);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 /* =========================================================
    PAINEL ESQUERDO
 ========================================================= */
@@ -118,13 +138,21 @@ body {
 .left-panel {
     position: relative;
 
+<<<<<<< HEAD
     padding: clamp(22px, 3vh, 34px) clamp(26px, 3vw, 38px);
+=======
+    padding: 30px 36px 30px 36px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     overflow: hidden;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+<<<<<<< HEAD
+=======
+    height: 100%;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     background:
         radial-gradient(
@@ -148,7 +176,13 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* brilho */
+=======
+/* =========================================================
+   BRILHO DO LADO ESQUERDO
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .left-panel::before {
     content: "";
@@ -176,7 +210,13 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* linha decorativa */
+=======
+/* =========================================================
+   LINHA DECORATIVA
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .left-panel::after {
     content: "";
@@ -224,9 +264,15 @@ body {
 
 .logo img,
 .logo2 img {
+<<<<<<< HEAD
     width: auto;
     height: clamp(28px, 3.8vh, 36px);
     max-width: 160px;
+=======
+    height: clamp(78px, 3.8vh, 66px);
+    max-width: 160px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     object-fit: contain;
 }
 
@@ -240,11 +286,23 @@ body {
     z-index: 2;
 
     margin-top: auto;
+<<<<<<< HEAD
     padding-top: 14px;
 }
 
 
 /* badge */
+=======
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/* =========================================================
+   BADGE
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .badge {
     display: inline-flex;
@@ -254,13 +312,22 @@ body {
     border-radius: 999px;
 
     background: rgba(255, 255, 255, 0.08);
+<<<<<<< HEAD
     border: 1px solid rgba(255, 255, 255, 0.10);
 
     font-size: 11.5px;
+=======
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+    font-size: 11.5px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     color: #eeeeee;
 
     backdrop-filter: blur(10px);
 
+<<<<<<< HEAD
     margin-bottom: clamp(8px, 1.2vh, 14px);
 }
 
@@ -275,6 +342,29 @@ body {
     letter-spacing: -1px;
 
     color: #ffffff;
+=======
+    margin-bottom: 10px;
+}
+
+
+/* =========================================================
+   TÍTULO ESQUERDO
+========================================================= */
+
+.hero-content h1 {
+    font-size: clamp(26px, 2.3vw, 34px);
+
+    line-height: 1.15;
+
+    font-weight: 600;
+
+    letter-spacing: -0.5px;
+
+    color: #ffffff;
+
+    width: auto;
+    max-width: 100%;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .hero-content h1 span {
@@ -293,6 +383,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* descrição */
 
 .hero-description {
@@ -302,6 +393,22 @@ body {
     color: rgba(255, 255, 255, 0.68);
 
     line-height: 1.45;
+=======
+/* =========================================================
+   DESCRIÇÃO
+========================================================= */
+
+.hero-description {
+    margin-top: 8px;
+
+    font-size: clamp(12.5px, 1vw, 13.5px);
+
+    color: rgba(255, 255, 255, 0.7);
+
+    line-height: 1.45;
+
+    max-width: 420px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 
@@ -311,32 +418,58 @@ body {
 
 .steps {
     display: grid;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     grid-template-columns: repeat(3, 1fr);
 
     gap: clamp(8px, 1vw, 12px);
 
+<<<<<<< HEAD
     margin-top: clamp(14px, 2vh, 22px);
+=======
+    margin-top: 18px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     max-width: 580px;
 }
 
 .step {
+<<<<<<< HEAD
     min-height: clamp(76px, 10.5vh, 96px);
     padding: clamp(10px, 1.2vh, 14px);
+=======
+    min-height: 70px;
+
+    padding: 9px 12px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     border-radius: 12px;
 
     background: rgba(255, 255, 255, 0.025);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     border: 1px solid rgba(255, 255, 255, 0.08);
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+<<<<<<< HEAD
     gap: 6px;
+=======
+
+    gap: 5px;
+
+    cursor: pointer;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     transition: 0.25s ease;
 }
 
+<<<<<<< HEAD
 .step:hover {
     transform: translateY(-3px);
     border-color: rgba(255, 72, 30, 0.5);
@@ -345,11 +478,23 @@ body {
 
 /* etapa ativa */
 
+=======
+
+/* =========================================================
+   ETAPA ATIVA E HOVER (INTERATIVO)
+========================================================= */
+
+.step:hover,
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 .step.active {
     border: 1px solid transparent;
 
     background:
         linear-gradient(#151515, #151515) padding-box,
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         linear-gradient(
             135deg,
             #ff7600,
@@ -358,11 +503,23 @@ body {
         ) border-box;
 
     box-shadow:
+<<<<<<< HEAD
         0 0 20px rgba(255, 62, 25, 0.12);
 }
 
 
 /* número */
+=======
+        0 0 20px rgba(255, 62, 25, 0.16);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   NÚMERO
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .step-number {
     width: 26px;
@@ -371,16 +528,34 @@ body {
     border-radius: 50%;
 
     display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     align-items: center;
     justify-content: center;
 
     font-size: 11.5px;
+<<<<<<< HEAD
     font-weight: 600;
 
     border: 1px solid rgba(255, 255, 255, 0.15);
     color: rgba(255, 255, 255, 0.75);
 }
 
+=======
+
+    font-weight: 600;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    color: rgba(255, 255, 255, 0.75);
+
+    transition: all 0.25s ease;
+}
+
+.step:hover .step-number,
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 .step.active .step-number {
     background:
         linear-gradient(
@@ -389,7 +564,12 @@ body {
             #ed1854
         );
 
+<<<<<<< HEAD
     border: none;
+=======
+    border: 1px solid transparent;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     color: white;
 
     box-shadow:
@@ -397,6 +577,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* texto */
 
 .step-text {
@@ -406,16 +587,40 @@ body {
 }
 
 
+=======
+/* =========================================================
+   TEXTO DAS ETAPAS
+========================================================= */
+
+.step-text {
+    font-size: 11px;
+
+    line-height: 1.25;
+
+    color: rgba(255, 255, 255, 0.82);
+}
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 /* =========================================================
    PAINEL DIREITO
 ========================================================= */
 
 .right-panel {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center;
 
     padding: clamp(16px, 2.4vh, 26px) clamp(22px, 3vw, 36px);
+=======
+
+    align-items: center;
+    justify-content: center;
+
+    padding:
+        22px
+        36px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     background:
         linear-gradient(
@@ -426,6 +631,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* formulário */
 
 .form-container {
@@ -442,22 +648,117 @@ body {
 
     display: block;
     margin: 0 auto clamp(6px, 1vh, 10px) auto;
+=======
+/* =========================================================
+   FORMULÁRIO
+========================================================= */
+
+.form-container {
+    width: 100%;
+
+    max-width: 390px;
+}
+
+
+/* =========================================================
+   LOGO DO LOGIN
+========================================================= */
+
+.icon-login {
+    position: relative;
+
+    z-index: 2;
+
+    width: 44px;
+    height: 44px;
+
+    display: block;
+
+    margin: 0 auto 10px auto;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     object-fit: contain;
 }
 
 
+<<<<<<< HEAD
 /* título */
+=======
+/* =========================================================
+   SELETOR DE PERFIL (COLABORADOR / GESTOR)
+========================================================= */
+
+.role-switcher {
+    display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 3px;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.role-btn {
+    flex: 1;
+    height: 33px;
+    background: transparent;
+    border: none;
+    border-radius: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.role-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.role-btn.active {
+    background:
+        linear-gradient(
+            135deg,
+            #ff8500,
+            #ff3428,
+            #ed1854
+        );
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(255, 60, 30, 0.3);
+}
+
+
+/* =========================================================
+   TÍTULO DO LOGIN
+========================================================= */
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
 .form-container h2 {
     text-align: center;
 
+<<<<<<< HEAD
     font-size: clamp(19px, 2vw, 23px);
+=======
+    font-size: 19px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-weight: 600;
 
     letter-spacing: -0.5px;
 
+<<<<<<< HEAD
     margin-bottom: clamp(10px, 1.5vh, 15px);
+=======
+    margin-bottom: 11px;
+
+    width: 100%;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 
@@ -466,15 +767,26 @@ body {
 ========================================================= */
 
 .input-group {
+<<<<<<< HEAD
     margin-bottom: clamp(8px, 1.2vh, 11px);
+=======
+    margin-bottom: 9px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .input-group label {
     display: block;
 
+<<<<<<< HEAD
     margin-bottom: 4px;
 
     font-size: 12px;
+=======
+    margin-bottom: 5px;
+
+    font-size: 13px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-weight: 500;
 
     color: rgba(255, 255, 255, 0.88);
@@ -482,20 +794,39 @@ body {
 
 .input-group input {
     width: 100%;
+<<<<<<< HEAD
     height: clamp(38px, 4.4vh, 42px);
 
     padding: 0 13px;
 
     border-radius: 10px;
+=======
+
+    height: 42px;
+
+    padding: 0 14px;
+
+    border-radius: 10px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     border: 1px solid rgba(255, 255, 255, 0.10);
 
     outline: none;
 
     background: rgba(255, 255, 255, 0.035);
+<<<<<<< HEAD
     color: white;
 
     font-family: inherit;
     font-size: 13px;
+=======
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 13.5px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     transition: 0.25s;
 }
@@ -506,7 +837,13 @@ body {
 
 .input-group input:focus {
     border-color: #ff4b25;
+<<<<<<< HEAD
     box-shadow: 0 0 0 3px rgba(255, 68, 30, 0.08);
+=======
+
+    box-shadow:
+        0 0 0 3px rgba(255, 68, 30, 0.08);
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .input-wrapper {
@@ -514,7 +851,11 @@ body {
 }
 
 .input-wrapper input {
+<<<<<<< HEAD
     padding-left: 13px;
+=======
+    padding-left: 14px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 
@@ -527,11 +868,16 @@ body {
 }
 
 .password-wrapper input {
+<<<<<<< HEAD
     padding-right: 38px;
+=======
+    padding-right: 42px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .eye {
     position: absolute;
+<<<<<<< HEAD
     right: 11px;
     top: 50%;
     transform: translateY(-50%);
@@ -540,11 +886,29 @@ body {
     background: transparent;
 
     color: rgba(255, 255, 255, 0.45);
+=======
+
+    right: 11px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border: none;
+
+    background: transparent;
+
+    color: rgba(255, 255, 255, 0.45);
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     cursor: pointer;
 
     padding: 4px;
 
     display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     align-items: center;
     justify-content: center;
 
@@ -555,6 +919,7 @@ body {
     color: rgba(255, 255, 255, 0.85);
 }
 
+<<<<<<< HEAD
 .password-info {
     display: flex;
     flex-direction: column;
@@ -566,6 +931,114 @@ body {
     line-height: 1.25;
 
     color: rgba(255, 255, 255, 0.42);
+=======
+
+/* =========================================================
+   FORÇA DA SENHA (GESTOR - CRIAR CONTA)
+========================================================= */
+
+.password-strength {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 8px;
+    padding: 7px 10px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 8px;
+}
+
+.password-strength.show {
+    display: flex;
+}
+
+.strength-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+}
+
+.strength-label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.strength-status {
+    font-weight: 600;
+    font-size: 11px;
+    transition: color 0.25s ease;
+}
+
+.strength-status.weak {
+    color: #f43f5e;
+}
+
+.strength-status.medium {
+    color: #f59e0b;
+}
+
+.strength-status.strong {
+    color: #10b981;
+}
+
+.strength-status.very-strong {
+    color: #06b6d4;
+}
+
+.strength-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    height: 4px;
+}
+
+.strength-segment {
+    height: 100%;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.12);
+    transition: background 0.3s ease;
+}
+
+.strength-segment.active-weak {
+    background: #f43f5e;
+    box-shadow: 0 0 6px rgba(244, 63, 94, 0.4);
+}
+
+.strength-segment.active-medium {
+    background: #f59e0b;
+    box-shadow: 0 0 6px rgba(245, 158, 11, 0.4);
+}
+
+.strength-segment.active-strong {
+    background: #10b981;
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.4);
+}
+
+.strength-segment.active-very-strong {
+    background: linear-gradient(90deg, #10b981, #06b6d4);
+    box-shadow: 0 0 6px rgba(6, 182, 212, 0.4);
+}
+
+
+/* =========================================================
+   INFORMAÇÕES DA SENHA
+========================================================= */
+
+.password-info {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+
+    margin-top: 6px;
+
+    font-size: 11px;
+
+    line-height: 1.35;
+
+    color: rgba(255, 255, 255, 0.45);
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 
@@ -575,14 +1048,23 @@ body {
 
 .continue-button {
     width: 100%;
+<<<<<<< HEAD
     height: clamp(38px, 4.4vh, 43px);
 
     border: none;
+=======
+
+    height: 44px;
+
+    border: none;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     border-radius: 10px;
 
     cursor: pointer;
 
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center;
 
@@ -593,6 +1075,22 @@ body {
     color: white;
     font-family: inherit;
     font-size: 13.5px;
+=======
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 11px;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-weight: 600;
 
     background:
@@ -611,6 +1109,10 @@ body {
 
 .continue-button:hover {
     transform: translateY(-2px);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     box-shadow:
         0 12px 28px rgba(255, 53, 24, 0.28);
 }
@@ -620,7 +1122,12 @@ body {
 }
 
 .arrow {
+<<<<<<< HEAD
     font-size: 17px;
+=======
+    font-size: 18px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     transition: 0.2s;
 }
 
@@ -630,20 +1137,38 @@ body {
 
 
 /* =========================================================
+<<<<<<< HEAD
    LOGIN
+=======
+   LOGIN / CRIAR CONTA
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 ========================================================= */
 
 .login-text {
     text-align: center;
+<<<<<<< HEAD
     margin-top: clamp(6px, 1vh, 9px);
 
     font-size: 11.5px;
+=======
+
+    margin-top: 9px;
+
+    font-size: 12px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     color: rgba(255, 255, 255, 0.45);
 }
 
 .login-text a {
     color: #ff4d2c;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+
+    text-decoration: none;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-weight: 500;
 }
 
@@ -654,22 +1179,42 @@ body {
 
 .divider {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
 
     gap: 10px;
 
     margin: clamp(8px, 1.2vh, 12px) 0;
+=======
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 9px 0;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .divider span {
     flex: 1;
+<<<<<<< HEAD
     height: 1px;
+=======
+
+    height: 1px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     background: rgba(255, 255, 255, 0.08);
 }
 
 .divider p {
     color: rgba(255, 255, 255, 0.5);
+<<<<<<< HEAD
     font-size: 11.5px;
+=======
+
+    font-size: 12px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 
@@ -679,6 +1224,7 @@ body {
 
 .google-button {
     width: 100%;
+<<<<<<< HEAD
     height: clamp(36px, 4.2vh, 40px);
 
     border-radius: 10px;
@@ -692,10 +1238,34 @@ body {
     align-items: center;
 
     gap: 8px;
+=======
+
+    height: 40px;
+
+    border-radius: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.11);
+
+    background: rgba(255, 255, 255, 0.015);
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 9px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 
     cursor: pointer;
 
     font-family: inherit;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-size: 13px;
 
     transition: 0.25s;
@@ -703,11 +1273,20 @@ body {
 
 .google-button:hover {
     background: rgba(255, 255, 255, 0.05);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     border-color: rgba(255, 255, 255, 0.2);
 }
 
 .google-icon {
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 17px;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     font-weight: 600;
 
     background:
@@ -720,7 +1299,13 @@ body {
         );
 
     -webkit-background-clip: text;
+<<<<<<< HEAD
     background-clip: text;
+=======
+
+    background-clip: text;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     color: transparent;
 }
 
@@ -731,21 +1316,37 @@ body {
 
 .terms {
     text-align: center;
+<<<<<<< HEAD
     margin-top: clamp(8px, 1.1vh, 11px);
 
     font-size: 9.5px;
     line-height: 1.35;
 
     color: rgba(255, 255, 255, 0.35);
+=======
+
+    margin-top: 9px;
+
+    font-size: 10px;
+
+    line-height: 1.4;
+
+    color: rgba(255, 255, 255, 0.40);
+>>>>>>> 5df3018 (Atualiza página de cadastro)
 }
 
 .terms a {
     color: #ff4b2b;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     text-decoration: none;
 }
 
 
 /* =========================================================
+<<<<<<< HEAD
    RESPONSIVIDADE (Telas menores em largura)
 ========================================================= */
 
@@ -755,25 +1356,81 @@ body {
         min-height: 100vh;
         padding: 20px 16px;
         overflow-y: auto;
+=======
+   RESPONSIVIDADE
+========================================================= */
+
+@media (max-width: 920px) {
+
+    .page {
+        min-height: 100vh;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 24px 16px;
+
+        position: relative;
+        overflow-y: auto;
+
+        background:
+            radial-gradient(
+                circle at 18% 25%,
+                rgba(255, 91, 0, 0.30),
+                transparent 32%
+            ),
+
+            radial-gradient(
+                circle at 80% 15%,
+                rgba(218, 0, 67, 0.25),
+                transparent 35%
+            ),
+
+            radial-gradient(
+                circle at 82% 85%,
+                rgba(154, 20, 68, 0.22),
+                transparent 35%
+            ),
+
+            #080808;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     }
 
     .signup-container {
         grid-template-columns: 1fr;
+<<<<<<< HEAD
         max-width: 500px;
         max-height: none;
     }
 
     .left-panel {
         padding: 24px 22px;
+=======
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        min-height: auto;
+    }
+
+    .left-panel {
+        padding: 28px 24px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         min-height: auto;
     }
 
     .hero-content {
+<<<<<<< HEAD
         margin-top: 20px;
+=======
+        margin-top: 24px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         padding-top: 0;
     }
 
     .right-panel {
+<<<<<<< HEAD
         padding: 26px 22px;
     }
 }
@@ -781,13 +1438,37 @@ body {
 @media (max-width: 540px) {
     .steps {
         grid-template-columns: 1fr;
+=======
+        padding: 28px 24px;
+    }
+}
+
+
+/* =========================================================
+   CELULAR
+========================================================= */
+
+@media (max-width: 540px) {
+
+    .steps {
+        grid-template-columns: 1fr;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         gap: 8px;
     }
 
     .step {
         flex-direction: row;
+<<<<<<< HEAD
         align-items: center;
         min-height: auto;
+=======
+
+        align-items: center;
+
+        min-height: auto;
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         padding: 10px 12px;
     }
 
@@ -798,20 +1479,37 @@ body {
 
 
 /* =========================================================
+<<<<<<< HEAD
    RESPONSIVIDADE (Telas com altura muito baixa)
 ========================================================= */
 
 @media (max-height: 640px) and (min-width: 921px) {
+=======
+   TELAS COM ALTURA BAIXA
+========================================================= */
+
+@media (max-height: 640px) and (min-width: 921px) {
+
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     .page {
         padding: 8px 16px;
     }
 
     .signup-container {
+<<<<<<< HEAD
         max-height: calc(100vh - 16px);
     }
 
     .left-panel {
         padding: 16px 24px;
+=======
+        height: calc(100vh - 16px);
+        min-height: 520px;
+    }
+
+    .left-panel {
+        padding: 18px 24px 20px 24px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
     }
 
     .right-panel {
@@ -819,6 +1517,7 @@ body {
     }
 
     .icon-login {
+<<<<<<< HEAD
         width: 34px;
         height: 34px;
         margin-bottom: 4px;
@@ -856,6 +1555,69 @@ body {
 
     .step {
         min-height: 70px;
+=======
+        width: 36px;
+        height: 36px;
+        margin-bottom: 8px;
+    }
+
+    .form-container h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .input-group {
+        margin-bottom: 9px;
+    }
+
+    .input-group label {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .input-group input {
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .password-info {
+        font-size: 10px;
+        gap: 2px;
+        margin-top: 4px;
+    }
+
+    .continue-button {
+        height: 38px;
+        margin-top: 12px;
+        font-size: 13.5px;
+    }
+
+    .login-text {
+        margin-top: 8px;
+        font-size: 11.5px;
+    }
+
+    .divider {
+        margin: 9px 0;
+    }
+
+    .divider p {
+        font-size: 11.5px;
+    }
+
+    .google-button {
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .terms {
+        margin-top: 8px;
+        font-size: 9.5px;
+    }
+
+    .step {
+        min-height: 60px;
+>>>>>>> 5df3018 (Atualiza página de cadastro)
         padding: 8px 10px;
     }
 }
