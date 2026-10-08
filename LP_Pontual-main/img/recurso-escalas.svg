@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="esc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <linearGradient id="esc-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8b459" />
+      <stop offset="100%" stop-color="#f89642" />
+    </linearGradient>
+    <filter id="esc-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="520" rx="16" fill="url(#esc-bg)" />
+  <rect width="798" height="518" x="1" y="1" rx="15" fill="none" stroke="#2a2a2e" stroke-width="1.5" />
+
+  <!-- App Header / Toolbar -->
+  <g transform="translate(24, 20)">
+    <!-- Search / Filter bar -->
+    <rect width="240" height="36" rx="8" fill="#1b1b1f" stroke="#323238" stroke-width="1" />
+    <circle cx="18" cy="18" r="5" fill="none" stroke="#8e8e93" stroke-width="1.5" />
+    <line x1="22" y1="22" x2="27" y2="27" stroke="#8e8e93" stroke-width="1.5" />
+    <text x="36" y="22" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="12">Filtrar equipe ou setor...</text>
+
+    <!-- Month Navigation -->
+    <rect x="290" y="0" width="170" height="36" rx="8" fill="#1b1b1f" stroke="#323238" stroke-width="1" />
+    <text x="325" y="22" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Outubro 2026</text>
+    <path d="M308 18 l4 -4 m-4 4 l4 4" stroke="#8e8e93" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M442 18 l-4 -4 m4 4 l-4 4" stroke="#8e8e93" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Action button -->
+    <rect x="620" y="0" width="132" height="36" rx="8" fill="url(#esc-accent)" />
+    <text x="645" y="22" fill="#12100e" font-family="'Inter', sans-serif" font-size="12" font-weight="700">+ Nova Escala</text>
+  </g>
+
+  <!-- Stats summary pills -->
+  <g transform="translate(24, 72)">
+    <rect width="170" height="48" rx="10" fill="#1b1b1f" stroke="#2e2e34" stroke-width="1" />
+    <text x="16" y="20" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10" font-weight="600">COBERTURA TOTAL</text>
+    <text x="16" y="38" fill="#51d87d" font-family="'Inter', sans-serif" font-size="15" font-weight="700">98.5% • Sem furos</text>
+
+    <rect x="185" y="0" width="170" height="48" rx="10" fill="#1b1b1f" stroke="#2e2e34" stroke-width="1" />
+    <text x="201" y="20" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10" font-weight="600">CONFLITOS ATIVOS</text>
+    <text x="201" y="38" fill="#f89642" font-family="'Inter', sans-serif" font-size="15" font-weight="700">0 detectados</text>
+
+    <rect x="370" y="0" width="180" height="48" rx="10" fill="#1b1b1f" stroke="#2e2e34" stroke-width="1" />
+    <text x="386" y="20" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10" font-weight="600">TROCAS PENDENTES</text>
+    <text x="386" y="38" fill="#d8b459" font-family="'Inter', sans-serif" font-size="15" font-weight="700">2 para aprovação</text>
+
+    <rect x="565" y="0" width="187" height="48" rx="10" fill="#1b1b1f" stroke="#2e2e34" stroke-width="1" />
+    <text x="581" y="20" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10" font-weight="600">REGIME DE TRABALHO</text>
+    <text x="581" y="38" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="14" font-weight="600">5x2 • 6x1 • 12x36</text>
+  </g>
+
+  <!-- Schedule Table Area -->
+  <g transform="translate(24, 136)">
+    <!-- Table Header Row -->
+    <rect width="752" height="36" rx="8" fill="#17171b" />
+    <text x="20" y="22" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="700">COLABORADOR</text>
+    <text x="210" y="22" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="700">SEG (05)</text>
+    <text x="320" y="22" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="700">TER (06)</text>
+    <text x="430" y="22" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="700">QUA (07)</text>
+    <text x="540" y="22" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="700">QUI (08)</text>
+    <text x="650" y="22" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="700">SEX (09)</text>
+
+    <!-- Row 1: Ana Clara -->
+    <g transform="translate(0, 44)">
+      <rect width="752" height="56" rx="8" fill="#1b1b1f" stroke="#28282e" stroke-width="1" />
+      <circle cx="32" cy="28" r="14" fill="#96183c" />
+      <text x="27" y="32" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" font-weight="700">AC</text>
+      <text x="56" y="25" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Ana Clara Lima</text>
+      <text x="56" y="39" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10">Supervisão • Manhã</text>
+
+      <!-- Shift Badge Seg -->
+      <rect x="200" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="212" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <!-- Shift Badge Ter -->
+      <rect x="310" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="322" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <!-- Shift Badge Qua -->
+      <rect x="420" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="432" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <!-- Shift Badge Qui -->
+      <rect x="530" y="14" width="95" height="28" rx="6" fill="#241f17" stroke="#3e382d" stroke-width="1" />
+      <text x="555" y="32" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="600">FOLGA</text>
+
+      <!-- Shift Badge Sex -->
+      <rect x="640" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="652" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+    </g>
+
+    <!-- Row 2: Bruno Mendes -->
+    <g transform="translate(0, 108)">
+      <rect width="752" height="56" rx="8" fill="#1b1b1f" stroke="#28282e" stroke-width="1" />
+      <circle cx="32" cy="28" r="14" fill="#f89642" />
+      <text x="27" y="32" fill="#12100e" font-family="'Inter', sans-serif" font-size="11" font-weight="700">BM</text>
+      <text x="56" y="25" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Bruno Mendes</text>
+      <text x="56" y="39" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10">Operações • Tarde</text>
+
+      <!-- Shift Badge Seg -->
+      <rect x="200" y="14" width="95" height="28" rx="6" fill="#2b1e16" stroke="#f89642" stroke-width="1" />
+      <text x="212" y="32" fill="#f89642" font-family="'Inter', sans-serif" font-size="11" font-weight="600">14:00 - 22:00</text>
+
+      <!-- Shift Badge Ter -->
+      <rect x="310" y="14" width="95" height="28" rx="6" fill="#2b1e16" stroke="#f89642" stroke-width="1" />
+      <text x="322" y="32" fill="#f89642" font-family="'Inter', sans-serif" font-size="11" font-weight="600">14:00 - 22:00</text>
+
+      <!-- Shift Badge Qua -->
+      <rect x="420" y="14" width="95" height="28" rx="6" fill="#241f17" stroke="#3e382d" stroke-width="1" />
+      <text x="445" y="32" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="600">FOLGA</text>
+
+      <!-- Shift Badge Qui -->
+      <rect x="530" y="14" width="95" height="28" rx="6" fill="#2b1e16" stroke="#f89642" stroke-width="1" />
+      <text x="542" y="32" fill="#f89642" font-family="'Inter', sans-serif" font-size="11" font-weight="600">14:00 - 22:00</text>
+
+      <!-- Shift Badge Sex -->
+      <rect x="640" y="14" width="95" height="28" rx="6" fill="#2b1e16" stroke="#f89642" stroke-width="1" />
+      <text x="652" y="32" fill="#f89642" font-family="'Inter', sans-serif" font-size="11" font-weight="600">14:00 - 22:00</text>
+    </g>
+
+    <!-- Row 3: Carla Dias (12x36) -->
+    <g transform="translate(0, 172)">
+      <rect width="752" height="56" rx="8" fill="#1b1b1f" stroke="#28282e" stroke-width="1" />
+      <circle cx="32" cy="28" r="14" fill="#640c1e" />
+      <text x="27" y="32" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" font-weight="700">CD</text>
+      <text x="56" y="25" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Carla Dias</text>
+      <text x="56" y="39" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10">Plantão • Escala 12x36</text>
+
+      <!-- Shift Badge Seg -->
+      <rect x="200" y="14" width="95" height="28" rx="6" fill="#2c141d" stroke="#d1385d" stroke-width="1" />
+      <text x="212" y="32" fill="#e86384" font-family="'Inter', sans-serif" font-size="11" font-weight="600">07:00 - 19:00</text>
+
+      <!-- Shift Badge Ter -->
+      <rect x="310" y="14" width="95" height="28" rx="6" fill="#241f17" stroke="#3e382d" stroke-width="1" />
+      <text x="335" y="32" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="600">FOLGA</text>
+
+      <!-- Shift Badge Qua -->
+      <rect x="420" y="14" width="95" height="28" rx="6" fill="#2c141d" stroke="#d1385d" stroke-width="1" />
+      <text x="432" y="32" fill="#e86384" font-family="'Inter', sans-serif" font-size="11" font-weight="600">07:00 - 19:00</text>
+
+      <!-- Shift Badge Qui -->
+      <rect x="530" y="14" width="95" height="28" rx="6" fill="#241f17" stroke="#3e382d" stroke-width="1" />
+      <text x="555" y="32" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="600">FOLGA</text>
+
+      <!-- Shift Badge Sex -->
+      <rect x="640" y="14" width="95" height="28" rx="6" fill="#2c141d" stroke="#d1385d" stroke-width="1" />
+      <text x="652" y="32" fill="#e86384" font-family="'Inter', sans-serif" font-size="11" font-weight="600">07:00 - 19:00</text>
+    </g>
+
+    <!-- Row 4: Diego Ramos -->
+    <g transform="translate(0, 236)">
+      <rect width="752" height="56" rx="8" fill="#1b1b1f" stroke="#28282e" stroke-width="1" />
+      <circle cx="32" cy="28" r="14" fill="#305a40" />
+      <text x="27" y="32" fill="#51d87d" font-family="'Inter', sans-serif" font-size="11" font-weight="700">DR</text>
+      <text x="56" y="25" fill="#f5f5f7" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Diego Ramos</text>
+      <text x="56" y="39" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="10">Atendimento • Manhã</text>
+
+      <rect x="200" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="212" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <rect x="310" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="322" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <rect x="420" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="432" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <rect x="530" y="14" width="95" height="28" rx="6" fill="#292418" stroke="#d8b459" stroke-width="1" />
+      <text x="542" y="32" fill="#d8b459" font-family="'Inter', sans-serif" font-size="11" font-weight="600">08:00 - 17:00</text>
+
+      <rect x="640" y="14" width="95" height="28" rx="6" fill="#241f17" stroke="#3e382d" stroke-width="1" />
+      <text x="665" y="32" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11" font-weight="600">FOLGA</text>
+    </g>
+  </g>
+
+  <!-- Bottom status pill -->
+  <g transform="translate(24, 468)">
+    <circle cx="10" cy="10" r="4" fill="#51d87d" />
+    <text x="22" y="14" fill="#8e8e93" font-family="'Inter', sans-serif" font-size="11">Escala sincronizada em tempo real com o aplicativo dos colaboradores</text>
+  </g>
+</svg>
