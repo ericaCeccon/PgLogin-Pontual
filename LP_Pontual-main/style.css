@@ -889,13 +889,28 @@
 
 [data-theme="light"] .theme-toggle:hover {
 
-    background: rgba(20, 20, 30, 0.10);
+    transform: translateY(-2px);
 
+    color: #9F243C;
+
+    border-color:#9F243C;
 }
 
 [data-theme="light"] .theme-toggle .icon-sun {
 
     display: block;
+
+}
+
+[data-theme="light"] .theme-toggle .icon-sun:hover {
+
+    display: block;
+    transform: translateY(-2px);
+
+    color: #9F243C;
+
+    border-color:#9F243C;
+
 
 }
 
